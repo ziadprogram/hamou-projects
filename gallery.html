@@ -1,0 +1,84 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Good Layout Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>About Stones Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    
+     .sidebar {
+    background: rgb(255, 255, 255);
+  color: #000000;
+  min-width: 200px;
+  padding: 2rem 1rem;
+
+
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 1.2rem;
+}
+
+.sidebar ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background: #f7f7f7;
+    }
+    .gallery img {
+      width: 250px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="about">
+    <h1>About Stones Gallery</h1>
+    <p>
+      Welcome to the Stones Gallery! Here you can explore beautiful pictures of various stones from around the world.
+    </p>
+  </div>
+  <div class="gallery">
+    <img src="agata-5900968_1280.jpg" alt="Stone 1">
+    <img src="ai-generated-9010931_1280.jpg"  alt="Stone 2">
+    <img src="fluorite-1598476_1280.jpg"  alt="Stone 3">
+    <img src="rock-crystal-1603469_1280.jpg"  alt="Stone 4">
+    <img src="precious-stone-3259727_1280.jpg"  alt="Stone 5">
+  </div>
+  <div class="container">
+   <nav class="sidebar">
+      <ul>
+        <li class="index"><a href="index.html">Home</a></li>
+        <li class="about"><a href="gallery.html">gallery</a></li>
+        <li><a href="sails.html">sails</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2></h2>
+      <p></p>
+    </main>
+  </div>
+</body>
+</html>
